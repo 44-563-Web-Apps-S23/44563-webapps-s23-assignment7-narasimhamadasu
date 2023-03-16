@@ -35,54 +35,163 @@
         <div class="flex-container">
         <div id ="bushes">Number of bushes checked is zero</div>
         <div id = "penalty">Penalty is zero</div>
-        <div >Click for help</div>
+        <div onclick="help()">Click for help</div>
         <div id ="help">Help report</div></h1>
         </div>
         <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
         <div class="row">
-            <div class="col-sm-1"><img src="bush_image.jpg " id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="bush_image.jpg" id = "i1" alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="bush_image.jpg" id = "i2"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="bush_image.jpg" id = "i3"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="bush_image.jpg" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="bush_image.jpg" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg " onclick="check(0)"id = "id0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg"  onclick="check(1)"id = "id1" alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg"  onclick="check(2)"id = "id2"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg"  onclick="check(3)"id = "id3"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg"  onclick="check(4)"id = "id4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg"  onclick="check(5)"id = "id5"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
             <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
         <div class="row">
-            <div class="col-sm-1"><img src="mouse_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="mouse_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="mouse_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="mouse_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="mouse_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="mouse_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(6)"id = "id6"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(7)"id = "id7"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(8)"id = "id8"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(9)"id = "id9"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(10)"id = "id10"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(11)"id = "id11"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
             
             
         </div>
 
         <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
         <div class="row">
-            <div class="col-sm-1"><img src="Tiger_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Tiger_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Tiger_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Tiger_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Tiger_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Tiger_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(12)"id = "id12"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(13)"id = "id13"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(14)"id = "id14"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(15)"id = "id15"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(16)"id = "id16"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(17)"id = "id17"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
            
             
             
         </div>
         <div class="image-grid d-flex flex-column justify-content-center align-items-center"></div>
         <div class="row">
-            <div class="col-sm-1"><img src="Grass_image.jpg" id = "i0"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Grass_image.jpg" id = "i1" alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Grass_image.jpg" id = "i2"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Grass_image.jpg" id = "i3"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Grass_image.jpg" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
-            <div class="col-sm-1"><img src="Grass_image.jpg" id = "i4"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(18)"id = "id18"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(19)"id = "id19" alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(20)"id = "id20"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(21)"id = "id21"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(22)"id = "id22"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
+            <div class="col-sm-1"><img src="bush_image.jpg" onclick="check(23)"id = "id23"  alt="tree" style="width: 100px;height: 100px; padding-bottom: 5%;"></div>
             
         </div>
+        <script>
+            let id='id';
+            let checkCount=0;
+            let penalty=0;
+            let lastCheck=0;
+            let mouseLocation=Math.floor(Math.random() * 24);
+            let catLocation=Math.floor(Math.random() * 24);
+            let gameOver=false;
+            let ids=[ ];
+            for(let i=0;i<=23;i++){
+                ids[i]=id+i;
+                
+               // console.log(ids[i]);
+            }  
+            function check(position){
+              if(gameOver==true){
+        
+              }
+              else{
+                  if(position==13){
+                      id=ids[position]
+                      document.getElementById(id).src="mouse_image.jpg";
+                      gameOver=true;
+                      penalty=penalty-3;
+                      console.log("image is mouse "+position);
+                      console.log("penalty is "+penalty);
+                      console.log("GameOver");
+                  }
+                  else if(position==21){
+                      id=ids[position]
+                      document.getElementById(id).src="Tiger_image.jpg";
+                      gameOver=true;
+                      penalty=penalty+4;
+                      console.log("image is cat "+position);
+                      console.log("penalty is "+penalty);
+                      console.log("GameOver");
+                  }
+                  else {
+                      id=ids[position]
+                      document.getElementById(id).src="Grass_image.jpg";
+                      checkCount+=1;
+                      penalty+=1;
+                      console.log("checkcount is "+checkCount);
+                      console.log("penalty is " +penalty);
+                  }
+                  lastCheck=position;
+                  console.log("lastCheck position is "+lastCheck);
+                
+              }
+               
+              bushes.innerHTML="Number of bushes checked is "+checkCount;
+              penalty.innerHTML="Penalty is "+penalty;
+              
+              
+          }
+          function help() {
+      let catRow = Math.floor(catLocation / 4);
+      let catColumn = catLocation % 6;
+      let mouseRow = Math.floor(mouseLocation / 4);
+      let mouseColumn = mouseLocation % 6;
+      let lastRow = Math.floor(lastCheck / 4);
+      let lastColumn = lastCheck % 6;
+      console.log(
+        catRow,
+        catColumn,
+        mouseRow,
+        mouseColumn,
+        lastRow,
+        lastColumn
+      );
+      penalty = penalty + 2;
+      document.getElementById("penalty").innerHTML = "Penalty is " + penalty;
+      if (
+        Math.abs(catRow - lastRow) <= 1 &&
+        Math.abs(catColumn - lastColumn) <= 1 &&
+        (Math.abs(catRow - mouseRow) > 1 ||
+          Math.abs(catColumn - mouseColumn) > 1)
+      ) {
+        document.getElementById("help").innerText = "meow";
+      } else if (
+        Math.abs(mouseRow - lastRow) <= 1 &&
+        Math.abs(mouseColumn - lastColumn) <= 1 &&
+        (Math.abs(catRow - mouseRow) > 1 ||
+          Math.abs(catColumn - mouseColumn) > 1)
+      ) {
+        document.getElementById("help").innerText = "squeak";
+      } else {
+        document.getElementById("help").innerText = "sorry, no help available";
+      }
+    }
+    function bonus() {
+      let mouseLocation = Math.floor(Math.random() * 24);
+      console.log("mouse location " + mouseLocation);
+      let catLocation = Math.floor(Math.random() * 24);
+      console.log("cat location " + catLocation);
+      document.getElementById("bushes").innerText =
+        "Number of bushes checked is " + 0;
+      document.getElementById("penalty").innerText = "Penalty is " + 0;
+      for (i = 0; i < 24; i++) {
+        if (i == mouseLocation) {
+          document.getElementById(imageID[i]).src = "mouse.jpg";
+        } else if (i == catLocation) {
+          document.getElementById(imageID[i]).src = "tiger.jpg";
+        } else {
+          document.getElementById(imageID[i]).src = "bush.jpg";
+        }
+      }
+    }
+        
 
 
     
-       
+    </script>
     </body>
     </html>
